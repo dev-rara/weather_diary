@@ -17,5 +17,4 @@
 * 매일 정해진 시간에 날씨 정보를 DB에 저장
 * 예외 혹은 에러 발생시 로그 기록
 * API Document에서 Rest API의 명세 확인
-
 <img width="932" alt="스크린샷 2022-09-07 00 30 53" src="https://user-images.githubusercontent.com/65327103/188676299-b4f27da1-ae1f-4c28-bbd5-70ef63ecd0bb.png">
