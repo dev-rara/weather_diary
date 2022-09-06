@@ -43,7 +43,7 @@ public class DiaryController {
 		return diaryService.readDiaries(startDate, endDate);
 	}
 
-	@ApiOperation(value = "선택한 날짜의 일기 텍스트를 수정합니다.")
+	@ApiOperation(value = "선택한 날짜의 일기를 수정합니다.")
 	@PutMapping("/update/diary")
 	void updateDiary(@RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @ApiParam(value = "수정하고 싶은 날짜", example = "2022-01-01") LocalDate date,
 					@RequestBody @ApiParam(value = "일기 수정") String text) {
