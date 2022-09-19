@@ -41,8 +41,6 @@ public class DiaryServiceImpl implements DiaryService {
 
 	private static final Logger logger = LoggerFactory.getLogger(WeatherApplication.class);
 
-	@Transactional
-	@Scheduled(cron = "0 0 1 * * *")
 	public void saveWeatherDate() {
 		dateWeatherRepository.save(getWeatherFromApi());
 	}
