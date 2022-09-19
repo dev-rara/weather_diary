@@ -6,15 +6,15 @@ import zerobase.weather.domain.Diary;
 
 public interface DiaryService {
 
-	public void saveWeatherDate();
+	void saveWeatherDate();
 
-	public void createDiary(LocalDate date, String text);
+	void createDiary(LocalDate date, String text);
 
-	public List<Diary> readDiary(LocalDate date);
+	List<Diary> readDiary(LocalDate date);
 
-	public  List<Diary> readDiaries(LocalDate startDate, LocalDate endDate);
+	List<Diary> readDiaries(LocalDate startDate, LocalDate endDate);
 
-	public void updateDiary(LocalDate date, String text);
+	void updateDiary(LocalDate date, String text);
 
-	public void deleteDiary(LocalDate date);
+	void deleteDiary(LocalDate date);
 }
