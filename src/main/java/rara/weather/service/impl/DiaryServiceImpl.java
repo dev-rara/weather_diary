@@ -1,4 +1,4 @@
-package zerobase.weather.service.impl;
+package rara.weather.service.impl;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -16,17 +16,16 @@ import org.json.simple.parser.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.weather.WeatherApplication;
-import zerobase.weather.domain.DateWeather;
-import zerobase.weather.domain.Diary;
-import zerobase.weather.exception.InvalidDateException;
-import zerobase.weather.repository.DateWeatherRepository;
-import zerobase.weather.repository.DiaryRepository;
-import zerobase.weather.service.DiaryService;
+import rara.weather.service.DiaryService;
+import rara.weather.WeatherApplication;
+import rara.weather.domain.DateWeather;
+import rara.weather.domain.Diary;
+import rara.weather.exception.InvalidDateException;
+import rara.weather.repository.DateWeatherRepository;
+import rara.weather.repository.DiaryRepository;
 
 @Service
 @Transactional(readOnly = true)

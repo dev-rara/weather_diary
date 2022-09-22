@@ -1,11 +1,11 @@
-package zerobase.weather.scheduler;
+package rara.weather.scheduler;
 
 import lombok.AllArgsConstructor;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.weather.service.impl.DiaryServiceImpl;
+import rara.weather.service.impl.DiaryServiceImpl;
 
 @Component
 @AllArgsConstructor

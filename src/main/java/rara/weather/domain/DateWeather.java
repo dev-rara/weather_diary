@@ -1,4 +1,4 @@
-package zerobase.weather.domain;
+package rara.weather.domain;
 
 import java.time.LocalDate;
 import javax.persistence.Entity;

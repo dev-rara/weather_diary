@@ -1,4 +1,4 @@
-package zerobase.weather.exception;
+package rara.weather.exception;
 
 public class InvalidDateException extends RuntimeException {
 

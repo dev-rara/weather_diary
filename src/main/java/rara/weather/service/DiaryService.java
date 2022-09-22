@@ -1,8 +1,8 @@
-package zerobase.weather.service;
+package rara.weather.service;
 
 import java.time.LocalDate;
 import java.util.List;
-import zerobase.weather.domain.Diary;
+import rara.weather.domain.Diary;
 
 public interface DiaryService {
 

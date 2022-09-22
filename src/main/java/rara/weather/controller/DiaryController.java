@@ -1,4 +1,4 @@
-package zerobase.weather.controller;
+package rara.weather.controller;
 
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import zerobase.weather.domain.Diary;
-import zerobase.weather.service.impl.DiaryServiceImpl;
+import rara.weather.domain.Diary;
+import rara.weather.service.impl.DiaryServiceImpl;
 
 @RestController
 @RequiredArgsConstructor

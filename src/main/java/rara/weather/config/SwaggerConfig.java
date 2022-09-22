@@ -1,4 +1,4 @@
-package zerobase.weather.config;
+package rara.weather.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
