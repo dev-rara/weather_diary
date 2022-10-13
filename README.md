@@ -1,6 +1,6 @@
 # weather_diary
 하루의 날씨와 일기를 기록할 수 있는 날씨 일기 API  
-[날씨 일기 프로젝트 정보](https://splashy-vanilla-138.notion.site/Weather-Diary-f19ea022832a4083ad3954459d67879a)
+[날씨 일기 프로젝트 정보](https://dev-rara.notion.site/Weather-Diary-f19ea022832a4083ad3954459d67879a)
 
 ## 사용 기술 스택
 * Spring Boot
