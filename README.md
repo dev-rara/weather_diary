@@ -1,15 +1,15 @@
-# weather_diary
+# ☀️weather_diary
 하루의 날씨와 일기를 기록할 수 있는 날씨 일기 API  
 [날씨 일기 프로젝트 정보](https://dev-rara.notion.site/Weather-Diary-f19ea022832a4083ad3954459d67879a)
 
-## 사용 기술 스택
+## 🛠️사용 기술 스택
 * Spring Boot
 * Spring JPA
 * MySQL
 * LogBack
 * Swagger
 
-## 구현 기능
+## 💡구현 기능
 * 날짜를 선택하여 날씨와 일기를 저장
 * 선택한 날짜의 모든 일기 데이터 조회
 * 선택한 기간중의 모든 일기 데이터 조회
